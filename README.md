@@ -12,5 +12,5 @@ Examples of rendering reports in R with different parameters that are passed to 
 
 # Real World Example:
 Note: this does not provide any actual output. It's included only as a more real-world example to show how the rendering script & .qmd interact. The below example would produce 24 reports in total.  
-[wastewater_alerts_YAML_ONLY.qmd](wastewater_alerts_YAML_ONLY.qmd) - Example yaml 
+[wastewater_alerts_YAML_ONLY.qmd](wastewater_alerts_YAML_ONLY.qmd) - Example yaml for a report
 - [render_wastewater_alerts.R](render_wastewater_alerts.R) - Rendering script for the above report
