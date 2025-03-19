@@ -18,11 +18,11 @@ library(rmarkdown)
 # Pathogens
 pathogens <- c("SARS-CoV-2", "Influenza A", "Influenza B", "RSV")
 
-# Cut-offs for WW level & trend ------------------------------
-levels_high <- c(10,10,12,12,15,15)
-levels_elevated <- c(5,5,8,8,10,10)
-trends_increasing <- c(50,75,50,75,50,75)
-trends_strong_increase <- c(100,150,100,150,100,150)
+# Cut-offs for WW level & trend: 6 sets of values to try  ------------------------------
+levels_high <-             c(10,  10,  12,  12,  15,  15)
+levels_elevated <-         c(5,   5,   8,   8,   10,  10)
+trends_increasing <-       c(50,  75,  50,  75,  50,  75)
+trends_strong_increase <-  c(100, 150, 100, 150, 100, 150)
 
 
 # Generate reports ------------------------------
