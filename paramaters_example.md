@@ -1,5 +1,5 @@
 # parameters_example
-Hanley Kingston
+Me
 2025-01-09
 
 When run as a stand-along script, the parameters specified in the yaml
@@ -68,3 +68,7 @@ through a for-loop, see: r-scripts//render_parameters_example.R
   <img src="images/clipboard-4015420709.png" width="363" />
 
   - params must be defined BEFORE title in the yaml
+
+- rmarkdown::render output file path should be provided relative to
+  .qmd. quarto::quarto_render output file path should be provided
+  relative to working directory

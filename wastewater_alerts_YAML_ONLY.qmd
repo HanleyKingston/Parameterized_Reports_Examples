@@ -1,0 +1,14 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+params:
+  pathogen_name: "Influenza A"
+  level_elevated: 5
+  level_high: 10
+  trend_increasing: 20
+  trend_strong_increase: 100
+title: "Calculate Historical WW Alerts - `r params$pathogen_name`"
+---

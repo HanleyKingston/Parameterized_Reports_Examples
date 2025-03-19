@@ -1,7 +1,7 @@
 ---
 format: gfm
 title: "parameters_example"
-author: Hanley Kingston
+author: Me
 date: "2025-01-09"
 params:
   person: !expr c("Simba", "Mowgli", "Mufasa")
@@ -61,3 +61,5 @@ For an example of rending this markdown with different inputs passed through a f
     ![](images/clipboard-4015420709.png){width="363"}
 
     -   params must be defined BEFORE title in the yaml
+
+-   rmarkdown::render output file path should be provided relative to .qmd. quarto::quarto_render output file path should be provided relative to working directory
