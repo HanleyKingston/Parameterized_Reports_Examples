@@ -19,7 +19,7 @@ i <- 1
 for (person in people_names) {
   for(message in messages){
     output_file <- paste0("Report", i, "_", Sys.Date(), ".docx") 
-    rmarkdown::render("./quarto-markdowns/paramaters_example.qmd", #
+    rmarkdown::render("paramaters_example.qmd", #
                       output_file = output_file, #Default output location is same as .qmd
                       params = list(person = person,
                                     message = message),
