@@ -12,7 +12,7 @@ library(dplyr)
 
 # Render (using quarto) ----------------------------------------
 quarto::quarto_render(
-  "./quarto-markdowns/paramaters_example.qmd", 
+  "paramaters_example.qmd", 
   output_file = paste0("Report_", Sys.Date(), ".docx"),  #Default output location is working directory
   execute_params = list(
     person = "Tom",
