@@ -16,4 +16,5 @@ quarto::quarto_render(
   output_file = paste0("Report_", Sys.Date(), ".docx"),  #Default output location is working directory
   execute_params = list(
     person = "Tom",
-    message = "Get lost")) #we don't provide the exclamation argument, so it will use the default (TRUE)
+    message = "Get lost"), #we don't provide the exclamation argument, so it will use the default (TRUE)
+  file_format = "docx")
