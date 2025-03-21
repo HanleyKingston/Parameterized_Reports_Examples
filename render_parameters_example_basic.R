@@ -17,4 +17,4 @@ quarto::quarto_render(
   execute_params = list(
     person = "Tom",
     message = "Get lost"), #we don't provide the exclamation argument, so it will use the default (TRUE)
-  file_format = "docx")
+  output_format = "docx")
