@@ -1,5 +1,6 @@
 ---
 format: gfm
+  docx: default
 title: "parameters_example"
 author: Me
 date: "2025-01-09"
