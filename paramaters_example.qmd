@@ -44,7 +44,7 @@ rmarkdown::render(
 
 For any parameter not specified, the value in the .qmd yaml will be used as a default.
 
-For an example of rending this markdown with different inputs passed through a for-loop, see: r-scripts//render_parameters_example.R
+For an example of rending this markdown with different inputs passed through a for-loop, see: render_parameters_example_loop.R
 
 ## Other notes
 
